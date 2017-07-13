@@ -1,0 +1,52 @@
+body{
+    background-image: url("Music5.jpg");
+}
+#matter{
+    padding : 200px 200px 200px 200px;
+    color: white;
+}
+ .english {
+      float:left;
+      width:20%;
+      height:80%;
+      color: white;
+    }
+    .hindi {
+      float:left;
+      width:75%;
+      height:80%;
+      color: white;
+      
+    }
+    .telugu {
+      float:left;
+      width:20%;
+      height:80%;
+      color: white;
+    }
+    .tamil {
+      float:left;
+      width:20%;
+      height:80%;
+      color: white;
+    }
+    #english{
+        font-family: "MV Boli", Times, serif;
+        font-size: 2em;
+    }
+    #hindi{
+        font-family: "MV Boli", Times, serif;
+        font-size: 2em;
+    }
+    #telugu{
+        font-family: "MV Boli", Times, serif;
+        font-size: 2em;
+    }
+    #tamil{
+        font-family: "MV Boli", Times, serif;
+        font-size: 2em;
+    }
+    img{
+      height:220px;
+      width:220px;  
+    }

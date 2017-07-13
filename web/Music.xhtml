@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Music Mashup</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="justified-nav.css" rel="stylesheet"></link>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </h:head>
+
+    <h:body>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <div class="container">
+
+            <!--navigation-->
+            <div class="row " >
+                <div class="masthead">
+                    <h3 class="text-success "><strong>Music Mashup</strong><a href="LogIn.xhtml" class="btn btn-primary col-sm-offset-9">Log in</a></h3>
+                    <nav >
+                        <ul class="nav nav-justified nav" >
+                            <li ><a href="Home.xhtml">Home</a></li>
+                            <li><a href="Music.xhtml">Music</a></li>
+                            <li><a href="Mashup.xhtml">Mashup</a></li>
+                            <li><a href="Support.xhtml">Support</a></li>
+                            <li><a href="ContactUs.xhtml">Contact us</a></li>
+                        </ul>
+                    </nav><br/>
+                </div>
+            </div>
+            <div class="row no-gutter">
+                <div class="col-md-4 col-md-offset-4">
+
+                    <input type="text" class="form-control" placeholder="Search for a song,artist,genre" /> </div>
+                <div class="col-md-1 ">
+                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </div>
+
+            </div>
+            <div class="row ">
+
+                <div class="col-lg-6 ">
+                    <h3 class="text-danger text-center">English</h3>
+                    <div class="row ">
+                        <div class="col-lg-6 ">
+                              <h:form> <h:commandLink action="#{purchasepage.result('justin biber.jpg','Justin Biber My World 2.0')}" >
+                                    <img src="justin biber.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="justin" class="text-center " style="margin-top: 10px">Justin Bieber My World 2.0</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+
+                        </div>
+                        <div class="col-lg-6 ">
+                               <h:form> <h:commandLink action="#{purchasepage.result('Akon_Rightnow.jpg','Akon RightNow')}" >
+                                    <img src="Akon_Rightnow.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="akon" class="text-center " style="margin-top: 10px">Akon RightNow</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+                            
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <h3 class="text-danger text-center">Hindi</h3>
+                    <div class="row ">
+                        <div class="col-lg-6 center-block">
+                              <h:form> <h:commandLink action="#{purchasepage.result('Yaariyan.jpg','Yaariyan')}" >
+                                    <img src="Yaariyan.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="yaariyan" class="text-center " style="margin-top: 10px">Yaariyan</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+
+                            
+                        </div>
+                        <div class="col-lg-6 center-block">
+                            <h:form> <h:commandLink action="#{purchasepage.result('raaanjhanaa.jpg','Raanjhanaa')}" >
+                                    <img src="raaanjhanaa.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="raanjhanaa" class="text-center " style="margin-top: 10px">Raanjhanaa</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+                            
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-lg-6 ">
+                    <h3 class="text-danger text-center">Tamil</h3>
+                    <div class="row ">
+                        <div class="col-lg-6 center-block">
+                            
+                            <h:form> <h:commandLink action="#{purchasepage.result('maari.jpg','Maari')}" >
+                                    <img src="maari.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="maari" class="text-center " style="margin-top: 10px">Maari</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+
+                            
+                        </div>
+                        <div class="col-lg-6 center-block">
+                              <h:form> <h:commandLink action="#{purchasepage.result('kaththi.jpg','kaththi')}" >
+                                    <img src="kaththi.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="kaththi" class="text-center " style="margin-top: 10px">Kaththi</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+
+                          
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 ">
+                    <h3 class="text-danger text-center">Telugu</h3>
+                    <div class="row ">
+                        <div class="col-lg-6 center-block">
+                            
+                              <h:form> <h:commandLink action="#{purchasepage.result('sardaar.jpg','Sardaar')}" >
+                                    <img src="sardaar.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="sardaar" class="text-center " style="margin-top: 10px">Sardaar</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+
+                        </div>
+                        <div class="col-lg-6 center-block">
+                             <h:form> <h:commandLink action="#{purchasepage.result('oopiri.jpg','Oopiri')}" >
+                                    <img src="oopiri.jpg"  class="img-rounded center-block" id="justin" width="150" height="150"></img> 
+                                    <h5 for="oopiri" class="text-center " style="margin-top: 10px">Oopiri</h5>
+
+                                    <!--                                                                    </h:link>-->
+                                </h:commandLink></h:form>
+                            
+                          
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </h:body>
+</html>
+

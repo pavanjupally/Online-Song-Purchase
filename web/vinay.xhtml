@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <link rel="stylesheet" type="text/css" href="/styles/Page1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="Page.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <h:head>
+        <title>TODO supply a title</title>
+        <style type="text/css">
+             body{
+                background-image: url("blue.jpg");
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        
+        <h:form>
+            Justin Biber @320kbps<h:commandButton value="$1.85" action="#{sample.downloadFile}"/><br></br>
+            
+            <br></br>
+            
+             Justin Biber @128kbps<h:commandButton value="$0.95" action="#{sample.downloadFile}"/>
+        </h:form>
+    </h:body>
+</html>
